@@ -2578,3 +2578,16 @@ select.mobile-device {
   box-shadow: 0 4px 16px rgba(84,153,199,0.18);
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .contact-btn-group {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+  .contact-btn {
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1em;
+  }
+}
