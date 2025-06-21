@@ -24,7 +24,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999999;
+    color: #eeeeee;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
@@ -62,7 +62,7 @@ body.demos .container-fluid {
 }
 
 a {
-    color: #1f1f1f;
+    color: #eeeeee;
     text-decoration: none !important;
     outline: none !important;
     -webkit-transition: all .3s ease-in-out;
@@ -84,7 +84,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #333333;
+    color: #eeeeee;
     margin: 0
 }
 
@@ -118,7 +118,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: #212121;
+    color: #eeeeee;
     text-decoration: none!important;
     opacity: 1
 }
@@ -133,7 +133,7 @@ h6 a:hover {
 }
 
 a {
-    color: #222222;
+    color: #dddddd;
     text-decoration: none;
     outline: none;
 }
@@ -160,7 +160,7 @@ a,
 .lead {
     font-size: 18px;
     line-height: 30px;
-    color: #767676;
+    color: #bbbbbb;
     margin: 0;
     padding: 0;
 }
@@ -360,7 +360,7 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+    background-color: transparent;
     z-index: 0;
     opacity: .6;
 }
@@ -374,7 +374,7 @@ a img.aligncenter {
 .heading h1{
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 62px;
+	font-size: 48px;
 	text-transform: uppercase;
 }
 .heading p{
@@ -417,7 +417,7 @@ xclip
   display: inline-block;
   padding: .2em 0;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 24px;
 }
 .cd-headline.clip span b{
 	text-transform: uppercase;
@@ -486,15 +486,15 @@ xclip
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: transparent;
 }
 
 .section.db {
-    background-color: #111111;
+    background-color: #092a49;
 }
 
 .section.color1 {
@@ -542,7 +542,7 @@ xclip
 }
 
 .section-title p {
-    color: #999;
+    color: #cccccc;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -632,8 +632,8 @@ xclip
 
 .right-box-pro{
 	position: relative;
-	-webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 30px -4px rgba(255, 255, 255, 0.1);
+	box-shadow: 0px 0px 30px -4px rgba(255, 255, 255, 0.1);
 }
 .right-box-pro img{
 	position: relative;
@@ -654,7 +654,7 @@ xclip
 
 .services-inner-box{
 	padding: 15px;
-	background: #ffffff;
+	background: #092a49;
 	margin-bottom: 30px;
 }
 .ser-icon{
@@ -665,7 +665,7 @@ xclip
 }
 .ser-icon i{
 	font-size: 50px;
-	color: #333333;
+	color: #eeeeee;
 }
 .services-inner-box h2{
 	font-size: 22px;
@@ -738,7 +738,7 @@ xclip
     box-shadow: none;
     background-color: transparent;
     border: 1px solid #e6e7e6 !important;
-    color: #1f1f1f;
+    color: #eeeeee;
     font-weight: 400;
     font-size: 13px;
     padding: 10px 30px;
@@ -791,9 +791,9 @@ xclip
 }
 
 .da-thumbs .pitem a div i {
-    background-color: #1f1f1f;
+    background-color: #eeeeee;
     position: absolute;
-    color: #ffffff !important;
+    color: #1f1f1f !important;
     bottom: 0;
     font-size: 15px;
     z-index: 12;
@@ -814,11 +814,11 @@ xclip
     display: block;
     text-align: center;
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 .logos img:hover {
-    opacity: 0.5;
+    opacity: 1.0;
 }
 
 .desc h3 i {
@@ -842,7 +842,7 @@ xclip
 
 .testimonial h4 {
     font-size: 18px;
-    color: #333333;
+    color: #eeeeee;
     padding: 13px 0 0;
 }
 
@@ -891,7 +891,7 @@ xclip
 
 .pricing-table {
     margin: 50px 0 0 0;
-    background: #fff;
+    background: #092a49;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
 }
 
@@ -912,12 +912,12 @@ xclip
 .pricing-table strong {
     font-weight: 600;
     margin-right: 6px;
-    color: #1f1f1f;
+    color: #eeeeee;
 }
 
 .pricing-table-header {
     padding: 30px 0 25px 0;
-    background: #ffffff;
+    background: #092a49;
 }
 
 .pricing-table-header h2 {
@@ -930,7 +930,7 @@ xclip
 .pricing-table-header h3 {
     font-size: 15px;
     font-weight: 600;
-    color: #aaaaaa;
+    color: #dddddd;
     margin-top: 10px;
     text-transform: uppercase;
 }
@@ -1019,8 +1019,8 @@ xclip
     text-align: center;
     line-height: 75px;
     font-size: 28px;
-    background-color: #f2f3f5;
-    color: #1f1f1f;
+    background-color: #092a49;
+    color: #eeeeee;
     margin-top: 0;
 }
 
@@ -1180,7 +1180,7 @@ xclip
 .service-widget h3 a,
 .section.wb .service-widget h3,
 .section.lb .service-widget h3 {
-    color: #1f1f1f;
+    color: #eeeeee;
 }
 
 .service-widget p {
@@ -1417,29 +1417,39 @@ hr.invis1 {
 }
 
 .filter-button-group{
-	border: 1px solid #e4e4e4;
-	border-radius: 0px;
-	margin: 10px 0px;
-	display: inline-block;
+	border: 2px solid #5499c7;
+	border-radius: 8px;
+	margin: 20px 0;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
 }
 
 .filter-button-group button.active{
-	background: #333333;
+	background: #5499c7;
 	color: #fff;
-	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
+	box-shadow: 0 4px 12px rgba(84, 153, 199, 0.2);
 }
 
 .filter-button-group button{
-	color: #333;
+	color: #ffffff;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 14px;
 	cursor: pointer;
-	background: #fff;
-	padding: 12px 40px;
+	background: transparent;
+	padding: 12px 25px;
 	border: none;
-	border-radius: 0px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.filter-button-group button:hover {
+    background: #5499c7;
+    color: #fff;
 }
 
 
@@ -1530,7 +1540,7 @@ hr.invis1 {
 .post-box{
 	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-	background: #ffffff;
+	background: #092a49;
 }
 
 .post-box:hover .post-thumb::before{
@@ -1557,7 +1567,7 @@ hr.invis1 {
 
 .post-info{
 	padding: 0px 15px 40px 15px;
-	background: #ffffff;
+	background: #092a49;
 	text-align: left;
 	margin-top: 40px;
 }
@@ -1664,7 +1674,7 @@ hr.invis1 {
     display: table;
     border-radius: 50%;
     font-size: 26px;
-    background-color: #f2f3f5;
+    background-color: #092a49;
     margin: 0 auto 22px;
     position: relative;
     text-align: center;
@@ -2071,7 +2081,7 @@ select.mobile-device {
 .contact_form {
     border: 1px solid #ededed;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background-color: #f2f3f5;
+    background-color: #092a49;
     padding: 40px 30px;
 }
 
@@ -2138,7 +2148,7 @@ select.mobile-device {
 -------------------------------------------------------------------*/
 
 .cac {
-    background-color: #232323;
+    background-color: #092a49;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -2151,7 +2161,7 @@ select.mobile-device {
 }
 
 .cac a h3 {
-    color: #999;
+    color: #dddddd;
 }
 
 .cac h3 {
@@ -2160,13 +2170,13 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
+    line-height: 1 !important;
 }
 
 .footer {
     padding: 90px 0 80px !important;
-    color: #999;
-    background-color: #1f1f1f;
+    color: #dddddd;
+    background-color: #092a49;
 }
 
 .footer .widget-title {
@@ -2176,7 +2186,7 @@ select.mobile-device {
 }
 
 .footer .widget-title small {
-    color: #999;
+    color: #dddddd;
     display: block;
     padding: 0 58px;
     text-transform: uppercase;
@@ -2197,12 +2207,12 @@ select.mobile-device {
 }
 
 .footer-links a {
-    color: #999;
+    color: #dddddd;
 }
 
 .footer-links a:hover,
 .footer a:hover {
-    color: #333333 !important;
+    color: #eeeeee !important;
 }
 
 .footer-links li {
@@ -2238,7 +2248,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color: transparent;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -2269,7 +2279,7 @@ select.mobile-device {
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+    color: #eeeeee;
     padding: 0;
 }
 
@@ -2361,7 +2371,7 @@ select.mobile-device {
 }
 
 .skills h3 {
-    color: #999999;
+    color: #dddddd;
     font-size: 15px;
 }
 
@@ -2403,10 +2413,10 @@ select.mobile-device {
 .stat-wrap h3 {
     font-size: 18px;
     font-weight: 400;
-    color: #999 !important;
+    color: #dddddd !important;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -2415,7 +2425,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
@@ -2489,7 +2499,7 @@ select.mobile-device {
     padding: 13px 40px;
     font-size: 18px;
     border: 1px solid #ececec !important;
-    color: #1f1f1f;
+    color: #eeeeee;
     background-color: transparent;
 }
 
@@ -2590,4 +2600,98 @@ select.mobile-device {
     padding: 16px 0;
     font-size: 1em;
   }
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #040e24;
+}
+
+#about {
+    background-color: transparent;
+}
+
+#about h2, #about p {
+    color: #ffffff;
+}
+
+.btn-cv {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-cv:hover {
+    background-color: #ffffff;
+    color: #040e24;
+}
+
+.btn-cv i {
+    margin-right: 8px;
+}
+
+#experience .services-inner-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#experience .services-inner-box h4 {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-banner .row {
+    display: flex;
+    align-items: center;
+}
+
+.banner-photo img {
+    border-radius: 15px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease-in-out;
+    animation: float 6s ease-in-out infinite;
+}
+
+.banner-photo img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+    animation-play-state: paused;
+}
+
+#mainNav {
+    background-color: transparent !important;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
 }
