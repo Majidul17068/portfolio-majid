@@ -1,150 +1,236 @@
-/******************************************
-    Version: 1.0
-/****************************************** */
+/*------------------------------------------------------------------
+    Responsive Styles - Modern Light Theme
+    Version: 2.0
+-------------------------------------------------------------------*/
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+/* Large Devices (992px - 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.heading h1 {
+		font-size: 3rem;
+	}
+}
+
+/* Medium Devices (768px - 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
 	#mainNav {
-		background-color: #333333;
+		background: rgba(255, 255, 255, 0.98);
 	}
-	.navbar-dark .navbar-brand{
-		width: 55%;
+
+	.navbar-collapse {
+		background: var(--color-bg, #ffffff);
+		padding: 1rem;
+		border-radius: 12px;
+		margin-top: 0.5rem;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 	}
-	.navbar-dark .navbar-nav .nav-link::after{
-		display: none;
+
+	.navbar-nav {
+		flex-direction: column;
 	}
-	.navbar-dark .navbar-toggler{
-		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
-	}
-	.heading h1{
-		font-size: 28px;
-	}
-	.heading p{
-		font-size: 14px;
-	}
-	.cd-headline.clip span{
-		font-size: 20px;
-	}
-	.section-title h3{
-		font-size: 28px;
-	}
-	.section-title p{
-		font-size: 14px;
-	}
-	#clouds{
-		margin-top: -35%;
-	}
-	.message-box{
-		margin-bottom: 30px;
-	}
-	.filter-button-group button{
-		padding: 12px 27px;
-	}
-	.filter-button-group{
-		text-align: center !important;
-	}
-	.post-box{
-		margin-bottom: 30px;
-	}
-	.footer-distributed .footer-left{
+
+	.navbar-nav .nav-link {
+		padding: 0.75rem 1rem !important;
 		text-align: center;
 	}
+
+	.heading h1 {
+		font-size: 2.5rem;
+	}
+
+	.heading p {
+		font-size: 1rem;
+	}
+
+	.cd-headline.clip span {
+		font-size: 1.25rem;
+	}
+
+	.section-title h3,
+	.section-title h2 {
+		font-size: 2rem;
+	}
+
+	.section-title p {
+		font-size: 1rem;
+	}
+
+	.message-box {
+		margin-bottom: 2rem;
+	}
+
+	.filter-button-group {
+		justify-content: center;
+	}
+
+	.filter-button-group button {
+		padding: 0.6rem 1.25rem;
+	}
+
+	.footer-distributed .footer-left {
+		text-align: center;
+	}
+
+	.experience-card {
+		width: 380px;
+		min-width: 380px;
+	}
 }
+
+/* Small Devices (max 767px) */
 @media (max-width: 767px) {
 	#mainNav {
-		background-color: #333333;
+		background: rgba(255, 255, 255, 0.98);
 	}
-	.navbar-dark .navbar-brand{
-		width: 55%;
+
+	.navbar-collapse {
+		background: var(--color-bg, #ffffff);
+		padding: 1rem;
+		border-radius: 12px;
+		margin-top: 0.5rem;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 	}
-	.navbar-dark .navbar-nav .nav-link::after{
-		display: none;
+
+	.navbar-nav {
+		flex-direction: column;
 	}
-	.navbar-dark .navbar-toggler{
-		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
-	}
-	.heading h1{
-		font-size: 28px;
-	}
-	.heading p{
-		font-size: 14px;
-	}
-	.cd-headline.clip span{
-		font-size: 20px;
-	}
-	.section-title h3{
-		font-size: 28px;
-	}
-	.section-title p{
-		font-size: 14px;
-	}
-	#clouds{
-		margin-top: -35%;
-	}
-	.message-box{
-		margin-bottom: 30px;
-	}
-	.filter-button-group button{
-		padding: 12px 27px;
-	}
-	.filter-button-group{
-		text-align: center !important;
-	}
-	.post-box{
-		margin-bottom: 30px;
-	}
-	.footer-distributed .footer-left{
+
+	.navbar-nav .nav-link {
+		padding: 0.75rem 1rem !important;
 		text-align: center;
+	}
+
+	.main-banner {
+		padding-top: 80px;
+		min-height: auto;
+		padding-bottom: 3rem;
+	}
+
+	.heading h1 {
+		font-size: 2rem;
+	}
+
+	.heading p {
+		font-size: 0.9rem;
+	}
+
+	.cd-headline.clip span {
+		font-size: 1rem;
+	}
+
+	.section-title h3,
+	.section-title h2 {
+		font-size: 1.75rem;
+	}
+
+	.section-title p {
+		font-size: 0.9rem;
+	}
+
+	.message-box {
+		margin-bottom: 2rem;
+	}
+
+	.message-box h2 {
+		font-size: 1.5rem;
+	}
+
+	.filter-button-group {
+		justify-content: center;
+	}
+
+	.filter-button-group button {
+		padding: 0.5rem 1rem;
+		font-size: 0.75rem;
+	}
+
+	.footer-distributed .footer-left {
+		text-align: center;
+	}
+
+	.banner-photo {
+		margin-top: 2rem;
+	}
+
+	.banner-photo img {
+		max-height: 350px;
+	}
+
+	.experience-card {
+		width: 320px;
+		min-width: 320px;
+	}
+
+	.section {
+		padding: 3rem 0;
+	}
+
+	.skill-card {
+		padding: 1.25rem;
+	}
+
+	.contact-btn-group {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact-btn {
+		width: 100%;
+		max-width: 280px;
+		justify-content: center;
 	}
 }
+
+/* Extra Small Devices (280px - 599px) */
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	#mainNav {
-		background-color: #333333;
+		background: rgba(255, 255, 255, 0.98);
 	}
-	.navbar-dark .navbar-brand{
-		width: 55%;
+
+	.navbar-brand img {
+		max-width: 80px;
 	}
-	.navbar-dark .navbar-nav .nav-link::after{
-		display: none;
+
+	.heading h1 {
+		font-size: 1.75rem;
 	}
-	.navbar-dark .navbar-toggler{
-		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
+
+	.cd-headline.clip span {
+		font-size: 0.9rem;
 	}
-	.heading h1{
-		font-size: 28px;
+
+	.section-title h3,
+	.section-title h2 {
+		font-size: 1.5rem;
 	}
-	.heading p{
-		font-size: 14px;
+
+	.btn-cv {
+		padding: 0.75rem 1.5rem;
+		font-size: 0.75rem;
 	}
-	.cd-headline.clip span{
-		font-size: 20px;
+
+	.experience-card {
+		width: 280px;
+		min-width: 280px;
+		padding: 1rem;
 	}
-	.section-title h3{
-		font-size: 28px;
+
+	.experience-card h4 {
+		font-size: 1rem;
 	}
-	.section-title p{
-		font-size: 14px;
+
+	.experience-card li {
+		font-size: 0.8rem;
 	}
-	#clouds{
-		margin-top: -35%;
+
+	.gallery-single img {
+		height: 200px;
 	}
-	.message-box{
-		margin-bottom: 30px;
+
+	.project-overlay-text h4 {
+		font-size: 1rem;
 	}
-	.filter-button-group button{
-		padding: 12px 27px;
+
+	.project-overlay-text p {
+		font-size: 0.75rem;
 	}
-	.filter-button-group{
-		text-align: center !important;
-	}
-	.post-box{
-		margin-bottom: 30px;
-	}
-	.footer-distributed .footer-left{
-		text-align: center;
-	}
-	
 }
